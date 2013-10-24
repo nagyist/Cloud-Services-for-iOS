@@ -6,7 +6,7 @@ SES is designed for your enterprise for multiple purposes of use. SES can be use
 
 Everything in the SES architecture is expandable with Service Oriented Architecture. (SOA) Your enterprise can integrate with SES with the given API’s.
 
-SESClient Library is a logging and analytics library works with Smartface Enterprise Server (SES).
+SESClient Library is a logging and analytics library works with SES.
 
 ## Usage
 
@@ -46,9 +46,9 @@ Customer can be recorded with customer information. With customParams parameter,
 ```
 
 ##### Recording Event
-Events can be recorded by defining an event direction for creating detailed path analyze.
+Events can be recorded by defining an event names for creating detailed path analyze. Optionally event details can be sent in JSON format.
 ```objc
-[[SESClient sharedSESClient] recordEvent:@"event_direction" :@"{\"key\":\"value\"}"];
+[[SESClient sharedSESClient] recordEvent:@"event_name" :@"{\"key\":\"value\"}"];
 ```
 
 ##### Checking Update
