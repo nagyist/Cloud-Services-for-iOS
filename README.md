@@ -1,4 +1,4 @@
-# SESClient Library for iOS
+# Smartface Enterprise Server for iOS
 
 Smartface Enterprise Server (SES) is not just an life cycle management tool for your mobile application. It is an assistant for your mobile app strategies.
 
