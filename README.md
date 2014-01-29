@@ -1,6 +1,6 @@
-# Smartface Cloud Services (SES) for iOS
+# Smartface Cloud Services for iOS
 
-Smartface Cloud Services is not just an life cycle management tool for your mobile application. It is an assistant for your mobile app strategies.
+Smartface Cloud Services (SES) is not just an life cycle management tool for your mobile application. It is an assistant for your mobile app strategies.
 
 SES is designed for your enterprise for multiple purposes of use. SES can be used by IT to manage applications; apps can be monitored by decision makers; contact center has its own support interface, all managed by Access Control Levels (ACL).
 
