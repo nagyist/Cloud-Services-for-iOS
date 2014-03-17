@@ -23,11 +23,12 @@
 		52A98E6617F5B17B00EB2399 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A98E6417F5B15700EB2399 /* SystemConfiguration.framework */; };
 		52A98E6717F5B18700EB2399 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A98E6217F5B14E00EB2399 /* CoreTelephony.framework */; };
 		52CDC4331806D91900F53B99 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CDC4321806D91900F53B99 /* AdSupport.framework */; };
-		632FB5D21885805700103168 /* libSesAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 632FB5D01885805700103168 /* libSesAnalytics.a */; };
-		632FB5D31885805700103168 /* libSesAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 632FB5D01885805700103168 /* libSesAnalytics.a */; };
-		632FB5D41885805700103168 /* libSesAnalyticsSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 632FB5D11885805700103168 /* libSesAnalyticsSimulator.a */; };
-		632FB5D51885805700103168 /* libSesAnalyticsSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 632FB5D11885805700103168 /* libSesAnalyticsSimulator.a */; };
 		632FB5D6188581DC00103168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A98E3317F5AF1800EB2399 /* Main.storyboard */; };
+		634D0F1318D6E8770026785D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634D0F1218D6E8770026785D /* CoreLocation.framework */; };
+		634D0F1F18D6EBF60026785D /* libSesAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 634D0F1D18D6EBF60026785D /* libSesAnalytics.a */; };
+		634D0F2018D6EBF60026785D /* libSesAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 634D0F1D18D6EBF60026785D /* libSesAnalytics.a */; };
+		634D0F2118D6EBF60026785D /* libSesAnalyticsSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 634D0F1E18D6EBF60026785D /* libSesAnalyticsSimulator.a */; };
+		634D0F2218D6EBF60026785D /* libSesAnalyticsSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 634D0F1E18D6EBF60026785D /* libSesAnalyticsSimulator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,11 +64,12 @@
 		52A98E6217F5B14E00EB2399 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		52A98E6417F5B15700EB2399 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		52CDC4321806D91900F53B99 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		632FB5CD1885805700103168 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		632FB5CE1885805700103168 /* SESClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESClient.h; sourceTree = "<group>"; };
-		632FB5CF1885805700103168 /* sesHeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sesHeaderFile.h; sourceTree = "<group>"; };
-		632FB5D01885805700103168 /* libSesAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSesAnalytics.a; sourceTree = "<group>"; };
-		632FB5D11885805700103168 /* libSesAnalyticsSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSesAnalyticsSimulator.a; sourceTree = "<group>"; };
+		634D0F1218D6E8770026785D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		634D0F1A18D6EBF60026785D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		634D0F1B18D6EBF60026785D /* SESClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESClient.h; sourceTree = "<group>"; };
+		634D0F1C18D6EBF60026785D /* sesHeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sesHeaderFile.h; sourceTree = "<group>"; };
+		634D0F1D18D6EBF60026785D /* libSesAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSesAnalytics.a; sourceTree = "<group>"; };
+		634D0F1E18D6EBF60026785D /* libSesAnalyticsSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSesAnalyticsSimulator.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +77,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634D0F1318D6E8770026785D /* CoreLocation.framework in Frameworks */,
+				634D0F2118D6EBF60026785D /* libSesAnalyticsSimulator.a in Frameworks */,
 				52CDC4331806D91900F53B99 /* AdSupport.framework in Frameworks */,
+				634D0F1F18D6EBF60026785D /* libSesAnalytics.a in Frameworks */,
 				52A98E6717F5B18700EB2399 /* CoreTelephony.framework in Frameworks */,
-				632FB5D21885805700103168 /* libSesAnalytics.a in Frameworks */,
-				632FB5D41885805700103168 /* libSesAnalyticsSimulator.a in Frameworks */,
 				52A98E6617F5B17B00EB2399 /* SystemConfiguration.framework in Frameworks */,
 				52A98E2417F5AF1800EB2399 /* CoreGraphics.framework in Frameworks */,
 				52A98E2617F5AF1800EB2399 /* UIKit.framework in Frameworks */,
@@ -90,10 +93,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				632FB5D51885805700103168 /* libSesAnalyticsSimulator.a in Frameworks */,
+				634D0F2218D6EBF60026785D /* libSesAnalyticsSimulator.a in Frameworks */,
 				52A98E4117F5AF1800EB2399 /* XCTest.framework in Frameworks */,
 				52A98E4317F5AF1800EB2399 /* UIKit.framework in Frameworks */,
-				632FB5D31885805700103168 /* libSesAnalytics.a in Frameworks */,
+				634D0F2018D6EBF60026785D /* libSesAnalytics.a in Frameworks */,
 				52A98E4217F5AF1800EB2399 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +126,7 @@
 		52A98E2017F5AF1800EB2399 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				634D0F1218D6E8770026785D /* CoreLocation.framework */,
 				52CDC4321806D91900F53B99 /* AdSupport.framework */,
 				52A98E6417F5B15700EB2399 /* SystemConfiguration.framework */,
 				52A98E6217F5B14E00EB2399 /* CoreTelephony.framework */,
@@ -137,7 +141,7 @@
 		52A98E2717F5AF1800EB2399 /* Ses */ = {
 			isa = PBXGroup;
 			children = (
-				632FB5CB1885805700103168 /* sesiosclient */,
+				634D0F1818D6EBF60026785D /* sesclient-ios */,
 				52A98E3017F5AF1800EB2399 /* AppDelegate.h */,
 				52A98E3117F5AF1800EB2399 /* AppDelegate.m */,
 				52A98E3317F5AF1800EB2399 /* Main.storyboard */,
@@ -178,22 +182,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		632FB5CB1885805700103168 /* sesiosclient */ = {
+		634D0F1818D6EBF60026785D /* sesclient-ios */ = {
 			isa = PBXGroup;
 			children = (
-				632FB5CC1885805700103168 /* inc */,
-				632FB5D01885805700103168 /* libSesAnalytics.a */,
-				632FB5D11885805700103168 /* libSesAnalyticsSimulator.a */,
+				634D0F1918D6EBF60026785D /* inc */,
+				634D0F1D18D6EBF60026785D /* libSesAnalytics.a */,
+				634D0F1E18D6EBF60026785D /* libSesAnalyticsSimulator.a */,
 			);
-			path = sesiosclient;
-			sourceTree = SOURCE_ROOT;
+			name = "sesclient-ios";
+			path = "../../sesclient-ios";
+			sourceTree = "<group>";
 		};
-		632FB5CC1885805700103168 /* inc */ = {
+		634D0F1918D6EBF60026785D /* inc */ = {
 			isa = PBXGroup;
 			children = (
-				632FB5CD1885805700103168 /* Reachability.h */,
-				632FB5CE1885805700103168 /* SESClient.h */,
-				632FB5CF1885805700103168 /* sesHeaderFile.h */,
+				634D0F1A18D6EBF60026785D /* Reachability.h */,
+				634D0F1B18D6EBF60026785D /* SESClient.h */,
+				634D0F1C18D6EBF60026785D /* sesHeaderFile.h */,
 			);
 			path = inc;
 			sourceTree = "<group>";
@@ -242,7 +247,7 @@
 		52A98E1617F5AF1700EB2399 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Faruk Toptas";
 				TargetAttributes = {
 					52A98E3E17F5AF1800EB2399 = {
@@ -351,7 +356,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -381,7 +385,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = armv7;
@@ -392,7 +396,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -427,7 +430,6 @@
 		52A98E5117F5AF1800EB2399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -441,6 +443,7 @@
 					"/Users/macbookpro/Downloads/sesclient-ios-3aralik",
 					/Users/macbookpro/Documents/Projects/Xcode/Ses,
 					"/Users/macuser/Downloads/Ses-iOS/sesiosclient",
+					"/Users/macuser/Downloads/sesclient-ios",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-all_load";
@@ -453,7 +456,6 @@
 		52A98E5217F5AF1800EB2399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -467,6 +469,7 @@
 					"/Users/macbookpro/Downloads/sesclient-ios-3aralik",
 					/Users/macbookpro/Documents/Projects/Xcode/Ses,
 					"/Users/macuser/Downloads/Ses-iOS/sesiosclient",
+					"/Users/macuser/Downloads/sesclient-ios",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-all_load";
@@ -479,7 +482,6 @@
 		52A98E5417F5AF1800EB2399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ses.app/Ses";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -496,6 +498,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/macuser/Downloads/Ses-iOS/sesiosclient",
+					"/Users/macuser/Downloads/sesclient-ios",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -506,7 +509,6 @@
 		52A98E5517F5AF1800EB2399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ses.app/Ses";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -519,6 +521,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/macuser/Downloads/Ses-iOS/sesiosclient",
+					"/Users/macuser/Downloads/sesclient-ios",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

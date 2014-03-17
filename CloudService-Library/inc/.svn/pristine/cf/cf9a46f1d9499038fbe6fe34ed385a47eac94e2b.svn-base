@@ -46,5 +46,7 @@
 
 -(int) getLastUpdateState;
 
+-(void) registerDeviceToken:(NSString*) token;
+
 
 @end

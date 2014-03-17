@@ -25,6 +25,11 @@
     [[SESClient sharedSESClient] setLoggingEnabled:YES];
 }
 
+- (IBAction)clickRegister:(id)sender {
+    [[SESClient sharedSESClient] registerDeviceToken:@"MY_TOKEN"];
+}
+
+
 - (IBAction)clickStart:(id)sender {
     [[SESClient sharedSESClient] startSession:API_KEY url:SES_URL];
 }

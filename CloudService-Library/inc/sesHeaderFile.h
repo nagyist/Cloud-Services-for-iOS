@@ -62,7 +62,6 @@ bool isLogEnabled;
 
 @interface AnalyticsFunctions : NSObject 
 
-
 @end
 
 
@@ -107,6 +106,7 @@ bool isLogEnabled;
 @property (nonatomic, retain) NSString* vendorId;
 @property (nonatomic, retain) NSString* advertisingId;
 @property (nonatomic, retain) NSString* source;
+@property (nonatomic, retain) NSString* userAgent;
 
 
 @end
