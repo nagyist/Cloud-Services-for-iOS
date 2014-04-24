@@ -2,7 +2,6 @@
 //  sesHeaderFile.h
 //  AnalyticIOSTest
 //
-//  Created by Smartface Inc. on 10/10/13.
 //  Copyright (c) 2014 Smartface Inc. All rights reserved.
 //
 

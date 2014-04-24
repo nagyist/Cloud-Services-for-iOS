@@ -2,7 +2,6 @@
 //  SesClient.h
 //  SesClient
 //
-//  Created by Smartface Inc. on 4/11/13.
 //  Copyright (c) 2014 Smartface Inc. All rights reserved.
 //
 
